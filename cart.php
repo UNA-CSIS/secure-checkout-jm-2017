@@ -19,7 +19,7 @@ $nms = $n_midnightSun * 25.99;
 $nbc = $n_beCrea * 20.99;
 
 $subtotal = $ntb + $ntn + $nsm + $nfw + $nig + $nggp + $nms + $nbc;
-$tax = $subtotal * 0.09;
+$tax = $subtotal * 0.095;
 $total = $subtotal + $tax;
 
 $_SESSION['subtotal'] = $subtotal;
